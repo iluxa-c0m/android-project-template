@@ -1,1 +1,1 @@
-include ':appfoundry-app',':appfoundry-app2', ':appfoundry-core', ':appfoundry-robo-tests'
+include ':appfoundry-app',':appfoundry-app2',':appfoundry-app3',':appfoundry-core', ':appfoundry-robo-tests'
