@@ -11,8 +11,8 @@ def versionBuild = 0 // bump for dogfood builds, public betas, etc.
 def buildTime = new Date().format("dd-MM-yyyy'T'HH:mm'Z'", TimeZone.getTimeZone("UTC"))
 
 android {
-    compileSdkVersion 20
-    buildToolsVersion "20.0.0"
+    compileSdkVersion 25
+    buildToolsVersion "25.0.0"
 
     jacoco {
         //version = '0.6.2.201302030002'
